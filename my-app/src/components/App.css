@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(116, 241, 123);
+}
+
+.full-page {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(3, 26, 230);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.first-header img {
+    margin-left: 30%;
+}
+
+.page-box {
+    width: 25%;
+    height: 300px;
+    background-color: red;
+    border-radius: 0.5%;
+    margin-left: 6%;
+    margin-top: 2%;
+    float: left;
+}
+
+.label {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: -5px;
+    font-size: 35px;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.first-footer ul,
+.first-footer img {
+    float: left;
+}
+
+.next-page img {
+    height: 150px;
+    width: 150px;
+    float: right;
+    background-color: rgb(116, 241, 123);
+    margin-top: 170px;
+}
+
+.next-page img:hover {
+    width: 170px;
+    height: 170px;
+}
+
+.secondPage-title {
+    height: 150px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.secondPage-title p {
+    float: left;
+    margin-left: 30%;
+    color: rgb(7, 52, 112);
+    font-weight: bold;
+    transition: step-start;
+    animation-name: changColor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.secondPage-title img {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(116, 241, 123);
+    float: right;
+    margin-right: 30%;
+    margin-top: 30px;
+}
+
+@keyframes changColor {
+    0% {
+        color: rgb(7, 52, 112);
+    }
+    10% {
+        color: rgb(0, 153, 255);
+    }
+    20% {
+        color: rgb(66, 170, 170);
+    }
+    30% {
+        color: rgba(56, 228, 93, 0.596);
+    }
+    40% {
+        color: rgba(105, 216, 31, 0.466);
+    }
+    50% {
+        color: rgb(192, 33, 4);
+    }
+    60% {
+        color: rgb(112, 7, 16);
+    }
+    70% {
+        color: rgb(194, 31, 99);
+    }
+    80% {
+        color: rgb(75, 9, 69);
+    }
+    90% {
+        color: yellow;
+    }
+    100% {
+        color: rgb(7, 52, 112);
+    }
+}
