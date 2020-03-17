@@ -9,7 +9,7 @@ const ClueData = {
         boxes: ['A6', 'B6', 'C6', 'D6', 'E6', 'F6']
     },
     Ac4: {
-        boxes: ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10']
+        boxes: ['C1', 'C2', 'C3', 'C4', 'C5', 'C6']
     },
     Dn4: {
         boxes: ['C1', 'D1', 'E1', 'F1', 'G1']

@@ -1,60 +1,75 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .crossword {
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-    margin: 0 auto;
+  justify-content: space-around;
+  width: 50%;
+  margin: 5% 45%;
 }
 
 .crossword-board {
-    display: flex;
-    flex-wrap: wrap;
-    width: calc(550px);
-    height: calc(550px);
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(550px);
+  height: calc(550px);
 }
 
 .box {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    border: 1px solid #000;
-    text-align: center;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  text-align: center;
 }
 
 .box-input {
-    width: 48px;
-    height: 49px;
-    border: 0;
-    padding: 0;
-    font-size: 18px;
+  width: 48px;
+  height: 49px;
+  border: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.box-input:invalid {
+  color: red;
+  text-align: center;
 }
 
 .box-input:valid {
-    color: green;
-}
-
-.box-input:valid {
-    color: red;
+  color: green;
+  text-align: center;
 }
 
 .box-input:focus {
-    background: #96def0;
+  background: #96def0;
 }
 
 .box-label {
-    position: absolute;
-    top: 2px;
-    left: 2px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
 }
 
 .blank {
-    background: rgb(54, 78, 54);
-    color: red;
+  background: rgb(54, 78, 54);
 }
 
 .highlight {
-    background: #ed75f1;
+  background: #e7a4e9;
+}
+.quest-div {
+  float: left;
+  width: 40%;
+  margin: 10% 2%;
+}
+.quest {
+  color: rgb(24, 23, 23);
+  margin: 0% 15%;
+}
+.quest-list {
+  list-style-type: none;
+  font-size: 20px;
+  color: rgba(163, 4, 155, 0.836);
+  font-weight: 600;
 }

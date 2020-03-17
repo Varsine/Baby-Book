@@ -1,125 +1,245 @@
 body {
-    background-color: rgb(116, 241, 123);
+  background-color: #b1a296;
 }
-
+.switch-data {
+  float: right;
+  width: 1100px;
+}
+.first-footer {
+  position: fixed;
+}
+.first-footer img {
+  display: block;
+  width: 150px;
+}
+.page-img {
+  margin-top: 50%;
+}
 .full-page {
-    list-style: none;
-    font-size: 20px;
+  list-style: none;
+  position: fixed;
+  margin-top: 40%;
+  margin-top: 250px;
 }
 
 .nav-link:hover {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: rgb(3, 26, 230);
-    font-weight: bold;
-    font-size: 40px;
+  text-decoration: none;
+  color: rgb(3, 26, 230);
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
 }
-
-.first-header img {
-    margin-left: 30%;
+.book-header {
+  color: red;
+  margin-left: 15%;
+  font-size: 60px;
+  display: inline;
 }
-
 .page-box {
-    width: 25%;
-    height: 300px;
-    background-color: red;
-    border-radius: 0.5%;
-    margin-left: 6%;
-    margin-top: 2%;
-    float: left;
+  width: 30%;
+  height: 300px;
+  margin-left: 10%;
+  margin-top: 2%;
+  float: left;
 }
 
-.label {
-    float: left;
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    margin-left: -5px;
-    font-size: 35px;
-    text-align: center;
-    background-color: cadetblue;
-    border-radius: 0% 50% 50% 0%;
+.first-footer img {
+  margin-left: 10%;
 }
-
 .first-footer ul,
 .first-footer img {
-    float: left;
+  float: left;
 }
 
-.next-page img {
-    height: 150px;
-    width: 150px;
-    float: right;
-    background-color: rgb(116, 241, 123);
-    margin-top: 170px;
+.switch-data img {
+  height: 150px;
+  width: 150px;
+  float: right;
+  background-color: #b1a296;
+  margin-top: 200px;
 }
 
-.next-page img:hover {
-    width: 170px;
-    height: 170px;
+.page-title {
+  height: 150px;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: -30px;
 }
 
-.secondPage-title {
-    height: 150px;
-    font-size: 50px;
-    margin-bottom: 20px;
+.page-title p {
+  float: left;
+  margin-left: 10%;
+  color: rgb(7, 52, 112);
+  font-weight: bold;
+  transition: step-start;
+  animation-name: changColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
-.secondPage-title p {
-    float: left;
-    margin-left: 30%;
-    color: rgb(7, 52, 112);
-    font-weight: bold;
-    transition: step-start;
-    animation-name: changColor;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-.secondPage-title img {
-    height: 100px;
-    width: 100px;
-    background-color: rgb(116, 241, 123);
-    float: right;
-    margin-right: 30%;
-    margin-top: 30px;
+.page-title img {
+  height: 100px;
+  width: 100px;
+  background-color: #b1a296;
+  float: right;
+  margin-right: 30%;
+  margin-top: 30px;
 }
 
 @keyframes changColor {
-    0% {
-        color: rgb(7, 52, 112);
-    }
-    10% {
-        color: rgb(0, 153, 255);
-    }
-    20% {
-        color: rgb(66, 170, 170);
-    }
-    30% {
-        color: rgba(56, 228, 93, 0.596);
-    }
-    40% {
-        color: rgba(105, 216, 31, 0.466);
-    }
-    50% {
-        color: rgb(192, 33, 4);
-    }
-    60% {
-        color: rgb(112, 7, 16);
-    }
-    70% {
-        color: rgb(194, 31, 99);
-    }
-    80% {
-        color: rgb(75, 9, 69);
-    }
-    90% {
-        color: yellow;
-    }
-    100% {
-        color: rgb(7, 52, 112);
-    }
+  0% {
+    color: rgb(7, 52, 112);
+  }
+  10% {
+    color: rgb(0, 153, 255);
+  }
+  20% {
+    color: rgb(66, 170, 170);
+  }
+  30% {
+    color: rgba(56, 228, 93, 0.596);
+  }
+  40% {
+    color: rgba(105, 216, 31, 0.466);
+  }
+  50% {
+    color: rgb(192, 33, 4);
+  }
+  60% {
+    color: rgb(112, 7, 16);
+  }
+  70% {
+    color: rgb(194, 31, 99);
+  }
+  80% {
+    color: rgb(75, 9, 69);
+  }
+  90% {
+    color: yellow;
+  }
+  100% {
+    color: rgb(7, 52, 112);
+  }
+}
+.places {
+  width: 80%;
+  margin: 1% 5%;
+}
+.place-list {
+  list-style-type: none;
+}
+.place-list p {
+  font-size: 30px;
+  color: saddlebrown;
+  font-weight: 600;
+}
+.place-list img {
+  width: 400px;
+  height: 200px;
+  float: left;
+  padding-left: 30px;
+  margin-top: -10px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: black;
+  opacity: 0.6;
+}
+.popup-inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background-color: rgb(240, 218, 218);
+  opacity: 1;
+}
+.popup-info {
+  margin: 2% 10%;
+  color: rgb(5, 5, 61);
+  font-size: 18px;
+}
+.popup-inner button {
+  float: right;
+  font-size: 30px;
+  background-color: rgb(197, 130, 143);
+  margin-top: -25%;
+}
+.four-title {
+  font-size: 40px;
+  color: brown;
+  margin-left: 20%;
+}
+.pazzle-form {
+  width: 60%;
+  margin-left: 20%;
+}
+.pazzle-form h1 {
+  font-size: 36px;
+  color: rgb(78, 78, 78);
+  margin-left: 32%;
+}
+.pazzle-form input {
+  height: 50px;
+  width: 300px;
+  color: rgb(94, 40, 80);
+  background-color: rgb(233, 182, 169);
+  border-color: rgb(233, 182, 169);
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+  margin: 5% 35%;
+  text-align: center;
+}
+.pazzle-form input:hover {
+  background-color: rgb(233, 225, 195);
+  border-color: rgb(233, 225, 195);
+}
+#pazzle-submit {
+  width: 100px;
+  background-color: rgb(115, 103, 196);
+  margin-left: 47%;
+  border-color: rgb(115, 103, 196);
+}
+#pazzle-submit:hover {
+  background-color: rgb(87, 129, 129);
+  border-color: rgb(87, 129, 129);
+}
+.pazzle-form p {
+  color: rgb(87, 46, 126);
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.question-pazzle {
+  color: rgb(214, 50, 50);
+  font-size: 30px;
+  text-align: center;
+  margin: 5% 0% 5% 14%;
+  font-weight: 700;
+  background-color: burlywood;
+}
+.answer-puzzel {
+  background-color: #b1a296;
+  border-color: #b1a296;
+  font-size: 18px;
+  margin: 2% 50%;
+  color: rgb(58, 54, 54);
+  font-weight: 700;
+}
+.answer-puzzel:hover {
+  background-color: burlywood;
 }

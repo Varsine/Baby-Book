@@ -8,51 +8,49 @@ const GridData = [
 	},
 	{
 		id: 'A2',
-		patt: '^[Նն]{1}$',
-		letter: 'L',
+		letter: '^[նՆ]{1}$',
 		clues: ['Ac1'],
 		label: '1↳'
 	},
 	{
 		id: 'A3',
-		patt: '^[Նն]{1}$',
-		letter: 'I',
+		letter: '^[աԱ]{1}$',
 		clues: ['Ac1', 'Dn2'],
 		label: '2↓'
 	},
 	{
 		id: 'A4',
-		letter: 'F',
+		letter: '^[պՊ]{1}$',
 		clues: ['Ac1'],
 		label: null
 	},
 	{
 		id: 'A5',
-		letter: 'E',
+		letter: '^[Աա]{1}$',
 		clues: ['Ac1'],
 		label: null
 	},
 	{
 		id: 'A6',
-		letter: 'C',
+		letter: '^[սՍ]{1}$',
 		clues: ['Ac1', 'Dn3'],
 		label: '3↓'
 	},
 	{
 		id: 'A7',
-		letter: 'Y',
+		letter: '^[տՏ]{1}$',
 		clues: ['Ac1'],
 		label: null
 	},
 	{
 		id: 'A8',
-		letter: 'C',
+		letter: '^[աԱ]{1}$',
 		clues: ['Ac1'],
 		label: null
 	},
 	{
 		id: 'A9',
-		letter: 'L',
+		letter: '^[կԿ]{1}$',
 		clues: ['Ac1'],
 		label: null
 	},
@@ -83,7 +81,7 @@ const GridData = [
 	},
 	{
 		id: 'B3',
-		letter: 'M',
+		letter: '^[բԲ]{1}$',
 		clues: ['Dn2'],
 		label: null
 	},
@@ -101,7 +99,7 @@ const GridData = [
 	},
 	{
 		id: 'B6',
-		letter: 'O',
+		letter: '^[ՈԻու]{2}',
 		clues: ['Dn3'],
 		label: null
 	},
@@ -138,37 +136,37 @@ const GridData = [
 	//   Row C
 	{
 		id: 'C1',
-		letter: 'C',
+		letter: '^[Կկ]{1}$',
 		clues: ['Ac4', 'Dn4'],
 		label: '4↓→'
 	},
 	{
 		id: 'C2',
-		letter: 'O',
+		letter: '^[աԱ]{1}$',
 		clues: ['Ac4'],
 		label: null
 	},
 	{
 		id: 'C3',
-		letter: 'M',
+		letter: '^[րՐ]{1}$',
 		clues: ['Ac4', 'Dn2'],
 		label: null
 	},
 	{
 		id: 'C4',
-		letter: 'P',
+		letter: '^[Կկ]{1}$',
 		clues: ['Ac4'],
 		label: null
 	},
 	{
 		id: 'C5',
-		letter: 'O',
+		letter: '^[ՈՒու]{2}$',
 		clues: ['Ac4'],
 		label: null
 	},
 	{
 		id: 'C6',
-		letter: 'N',
+		letter: '^[տՏ]{1}$',
 		clues: ['Ac4', 'Dn3'],
 		label: null
 	},
@@ -192,8 +190,8 @@ const GridData = [
 	},
 	{
 		id: 'C10',
-		letter: 'S',
-		clues: ['Ac4', 'Dn5'],
+		letter: '^[Նն]{1}$',
+		clues: ['Dn5'],
 		label: '5↴'
 	},
 	{
@@ -205,7 +203,7 @@ const GridData = [
 	// Row D
 	{
 		id: 'D1',
-		letter: 'U',
+		letter: '^[իԻ]{1}$',
 		clues: ['Dn4'],
 		label: null
 	},
@@ -217,7 +215,7 @@ const GridData = [
 	},
 	{
 		id: 'D3',
-		letter: 'U',
+		letter: '^[աԱ]{1}$',
 		clues: ['Dn2']
 	},
 	{
@@ -234,7 +232,7 @@ const GridData = [
 	},
 	{
 		id: 'D6',
-		letter: 'S',
+		letter: '^[լԼ]{1}$',
 		clues: ['Dn3'],
 		label: null
 	},
@@ -258,7 +256,7 @@ const GridData = [
 	},
 	{
 		id: 'D10',
-		letter: 'U',
+		letter: '^[աԱ]{1}$',
 		clues: ['Dn5'],
 		label: null
 	},
@@ -271,7 +269,7 @@ const GridData = [
 	//   Row E
 	{
 		id: 'E1',
-		letter: 'R',
+		letter: '^[սՍ]{1}$',
 		clues: ['Dn4'],
 		label: null
 	},
@@ -283,7 +281,7 @@ const GridData = [
 	},
 	{
 		id: 'E3',
-		letter: 'T',
+		letter: '^[հՀ]{1}$',
 		clues: ['Dn2'],
 		label: null
 	},
@@ -301,7 +299,7 @@ const GridData = [
 	},
 	{
 		id: 'E6',
-		letter: 'T',
+		letter: '^[Իի]{1}$',
 		clues: ['Dn3'],
 		label: null
 	},
@@ -325,7 +323,7 @@ const GridData = [
 	},
 	{
 		id: 'E10',
-		letter: 'P',
+		letter: '^[սՍ]{1}$',
 		clues: ['Dn5'],
 		label: null
 	},
@@ -338,7 +336,7 @@ const GridData = [
 	//   Row F
 	{
 		id: 'F1',
-		letter: 'L',
+		letter: '^[աԱ]{1}$',
 		clues: ['Dn4'],
 		label: null
 	},
@@ -350,7 +348,7 @@ const GridData = [
 	},
 	{
 		id: 'F3',
-		letter: 'A',
+		letter: '^[աԱ]{1}$',
 		clues: ['Dn2'],
 		label: null
 	},
@@ -368,44 +366,44 @@ const GridData = [
 	},
 	{
 		id: 'F6',
-		letter: 'R',
+		letter: '^[Կկ]{1}$',
 		clues: ['Dn3', 'Ac6'],
 		label: '6↳'
 	},
 	{
 		id: 'F7',
-		letter: 'E',
+		letter: '^[իԻ]{1}$',
 		clues: ['Ac6'],
 		label: null
 	},
 	{
 		id: 'F8',
-		letter: 'N',
+		letter: '^[րՐ]{1}$',
 		clues: ['Ac6'],
 		label: null
 	},
 	{
 		id: 'F9',
-		letter: 'D',
+		letter: '^[Աա]{1}$',
 		clues: ['Ac6'],
 		label: null
 	},
 	{
 		id: 'F10',
-		letter: 'E',
+		letter: '^[Կկ]{1}$',
 		clues: ['Ac6'],
 		label: null
 	},
 	{
 		id: 'F11',
-		letter: 'R',
+		letter: '^[իԻ]{1}$',
 		clues: ['Ac6'],
 		label: null
 	},
 	//   Row G
 	{
 		id: 'G1',
-		letter: 'Y',
+		letter: '^[Տտ]{1}$',
 		clues: ['Dn4'],
 		label: null
 	},
@@ -417,7 +415,7 @@ const GridData = [
 	},
 	{
 		id: 'G3',
-		letter: 'B',
+		letter: '^[Մմ]{1}$',
 		clues: ['Dn2'],
 		label: null
 	},
@@ -459,7 +457,7 @@ const GridData = [
 	},
 	{
 		id: 'G10',
-		letter: 'R',
+		letter: '^[իԻ]{1}$',
 		clues: ['Dn5'],
 		label: null
 	},
@@ -484,7 +482,7 @@ const GridData = [
 	},
 	{
 		id: 'H3',
-		letter: 'L',
+		letter: '^[Յյ]{1}$',
 		clues: ['Dn2'],
 		label: null
 	},
@@ -520,7 +518,7 @@ const GridData = [
 	},
 	{
 		id: 'H9',
-		letter: 'K',
+		letter: '^[Բբ]{1}$',
 		clues: ['Dn7'],
 		label: '7↴'
 	},
@@ -545,55 +543,55 @@ const GridData = [
 	},
 	{
 		id: 'I2',
-		letter: 'S',
+		letter: '^[Կկ]{1}$',
 		clues: ['Ac8'],
 		label: '8↳'
 	},
 	{
 		id: 'I3',
-		letter: 'E',
+		letter: '^[Աա]{1}$',
 		clues: ['Ac8', 'Dn2'],
 		label: null
 	},
 	{
 		id: 'I4',
-		letter: 'T',
+		letter: '^[րՐ]{1}$',
 		clues: ['Ac8'],
 		label: null
 	},
 	{
 		id: 'I5',
-		letter: 'S',
+		letter: '^[Կկ]{1}$',
 		clues: ['Ac8'],
 		label: null
 	},
 	{
 		id: 'I6',
-		letter: 'T',
+		letter: '^[Աա]{1}$',
 		clues: ['Ac8'],
 		label: null
 	},
 	{
 		id: 'I7',
-		letter: 'A',
+		letter: '^[Նն]{1}$',
 		clues: ['Ac8'],
 		label: null
 	},
 	{
 		id: 'I8',
-		letter: 'T',
+		letter: '^[Դդ]{1}$',
 		clues: ['Ac8'],
 		label: null
 	},
 	{
 		id: 'I9',
-		letter: 'E',
+		letter: '^[Աա]{1}$',
 		clues: ['Ac8', 'Dn7'],
 		label: null
 	},
 	{
 		id: 'I10',
-		letter: 'k',
+		letter: '^[Կկ]{1}$',
 		clues: ['Ac8'],
 		label: null
 	},
@@ -618,7 +616,7 @@ const GridData = [
 	},
 	{
 		id: 'J3',
-		letter: 'n',
+		letter: '^[Նն]{1}$',
 		clues: ['Dn2'],
 		label: null
 	},
@@ -654,7 +652,7 @@ const GridData = [
 	},
 	{
 		id: 'J9',
-		letter: 'Y',
+		letter: '^[Րր]{1}$',
 		clues: ['Dn7'],
 		label: null
 	},
@@ -697,31 +695,31 @@ const GridData = [
 	},
 	{
 		id: 'K5',
-		letter: 'P',
+		letter: '^[Մմ]{1}$',
 		clues: ['Ac9'],
 		label: '9↳'
 	},
 	{
 		id: 'K6',
-		letter: 'R',
-		clues: ['Ac9', 'Dn3'],
+		letter: '^[Եե]{1}$',
+		clues: ['Ac9'],
 		label: null
 	},
 	{
 		id: 'K7',
-		letter: 'O',
+		letter: '^[ղՂ]{1}$',
 		clues: ['Ac9'],
 		label: null
 	},
 	{
 		id: 'K8',
-		letter: 'P',
+		letter: '^[րՐ]{1}$',
 		clues: ['Ac9'],
 		label: null
 	},
 	{
 		id: 'K9',
-		letter: 'S',
+		letter: '^[Իի]{1}$',
 		clues: ['Ac9', 'Dn7'],
 		label: null
 	},

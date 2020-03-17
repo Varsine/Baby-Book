@@ -51,7 +51,8 @@ class Box extends React.Component {
 			input = (
 				<input
 					type="text"
-					pattern={this.state.grid.patt}
+					pattern={this.props.letter}
+					maxLength={2}
 					className={`box-input ${this.state.highlight ? 'highlight' : ''}`}
 					onFocus={this.handleFocus}
 					ref={input => {

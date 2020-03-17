@@ -6,7 +6,7 @@ class SecondPage extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className="secondPage-title">
+				<div className="page-title">
 					<p>
 						<em>Լուծել խաչբառը</em>
 					</p>

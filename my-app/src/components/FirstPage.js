@@ -1,49 +1,50 @@
-import React from 'react';
+import React from "react"
+import ReactPlayer from "react-player"
 
-class FirstPage extends React.Component {
-	changSimbaImage() {
-		document.getElementById('simba').src =
-			'https://media2.giphy.com/media/LjUXZgnT2z7kA/source.gif';
-	}
-
-	passNextPage() {
-		window.location.assign('secondPage.js');
-	}
-	render() {
-		return (
-			<div>
-				<div className="first-header">
-					<img
-						onMouseOver={this.changSimbaImage}
-						alt="Simba"
-						id="simba"
-						src="https://media0.giphy.com/media/3Vp0zc4z9ARJS/source.gif"
-					/>
-				</div>{' '}
-				<hr />
-				<div className="first-body">
-					<div className="page-box">
-						<div className="label">1</div>
-					</div>{' '}
-					<div className="page-box">
-						<div className="label">2</div>{' '}
-					</div>{' '}
-					<div className="page-box">
-						<div className="label">3</div>{' '}
-					</div>{' '}
-					<div className="page-box">
-						<div className="label">4</div>
-					</div>{' '}
-					<div className="page-box">
-						<div className="label">5</div>
-					</div>{' '}
-					<div className="page-box">
-						<div className="label">6</div>{' '}
-					</div>{' '}
-				</div>{' '}
-			</div>
-		);
-	}
+function FirstPage() {
+  return (
+    <div>
+      <h1 className="book-header">Մանուկների աչքերով</h1>
+      <div className="first-header">
+        <img
+          alt="Simba"
+          id="simba"
+          src="https://media2.giphy.com/media/LjUXZgnT2z7kA/source.gif"
+        />
+      </div>{" "}
+      <hr />
+      <div className="first-body">
+        <div className="page-box">
+          <ReactPlayer
+            width="100%"
+            height="100%"
+            url="https://www.youtube.com/watch?v=a4Plup16DnA"
+          />
+        </div>{" "}
+        <div className="page-box">
+          <ReactPlayer
+            width="100%"
+            height="100%"
+            url="https://www.youtube.com/watch?v=cmnBbEZ-ylg"
+          />
+        </div>
+        <div className="page-box">
+          <ReactPlayer
+            width="100%"
+            height="100%"
+            url="https://www.youtube.com/watch?v=4MOvYXWSWFw"
+          />
+        </div>
+        <div className="page-box">
+          <ReactPlayer
+            width="100%"
+            height="100%"
+            url="https://www.youtube.com/watch?v=YmcErwK6INo"
+          />
+        </div>
+      </div>{" "}
+    </div>
+  )
 }
 
-export default FirstPage;
+export default FirstPage
