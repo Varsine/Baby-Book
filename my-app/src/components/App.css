@@ -3,14 +3,14 @@ body {
 }
 .switch-data {
   float: right;
-  width: 1100px;
+  width: 80%;
 }
 .first-footer {
   position: fixed;
 }
 .first-footer img {
   display: block;
-  width: 150px;
+  width: 80%;
 }
 .page-img {
   margin-top: 50%;
@@ -19,7 +19,7 @@ body {
   list-style: none;
   position: fixed;
   margin-top: 40%;
-  margin-top: 250px;
+  margin-top: 20%;
 }
 
 .nav-link:hover {
@@ -41,7 +41,6 @@ body {
 }
 .page-box {
   width: 30%;
-  height: 300px;
   margin-left: 10%;
   margin-top: 2%;
   float: left;
@@ -56,18 +55,18 @@ body {
 }
 
 .switch-data img {
-  height: 150px;
-  width: 150px;
+  height: 15%;
+  width: 15%;
   float: right;
   background-color: #b1a296;
-  margin-top: 200px;
+  margin-top: 20%;
 }
 
 .page-title {
   height: 150px;
   font-size: 50px;
-  margin-bottom: 20px;
-  margin-top: -30px;
+  margin-bottom: 3%;
+  margin-top: -2%;
 }
 
 .page-title p {
@@ -82,12 +81,12 @@ body {
 }
 
 .page-title img {
-  height: 100px;
-  width: 100px;
+  height: 70%;
+  width: 10%;
   background-color: #b1a296;
   float: right;
   margin-right: 30%;
-  margin-top: 30px;
+  margin-top: 3%;
 }
 
 @keyframes changColor {
@@ -138,7 +137,7 @@ body {
   font-weight: 600;
 }
 .place-list img {
-  width: 400px;
+  width: 50%;
   height: 200px;
   float: left;
   padding-left: 30px;
@@ -194,7 +193,7 @@ body {
 }
 .pazzle-form input {
   height: 50px;
-  width: 300px;
+  width: 50%;
   color: rgb(94, 40, 80);
   background-color: rgb(233, 182, 169);
   border-color: rgb(233, 182, 169);
@@ -209,7 +208,7 @@ body {
   border-color: rgb(233, 225, 195);
 }
 #pazzle-submit {
-  width: 100px;
+  width: 30%;
   background-color: rgb(115, 103, 196);
   margin-left: 47%;
   border-color: rgb(115, 103, 196);
@@ -242,4 +241,80 @@ body {
 }
 .answer-puzzel:hover {
   background-color: burlywood;
+}
+@media screen and (max-width: 800px) {
+  .nav-link {
+    font-size: 14px;
+  }
+  .first-footer img {
+    width: 30%;
+  }
+  .book-header {
+    font-size: 18px;
+  }
+  .page-box {
+    float: none;
+    margin-left: 20%;
+    width: 60%;
+  }
+  .page-title {
+    height: 60px;
+    font-size: 18px;
+  }
+  .quest-div {
+    float: none;
+    width: 80%;
+    margin-left: 20%;
+  }
+  .quest-list {
+    font-size: 16px;
+  }
+  .crossword {
+    margin-left: 0px;
+  }
+  .place-list img {
+    width: 100%;
+    height: 150px;
+  }
+  .place-list p {
+    font-size: 18px;
+  }
+  .popup-info {
+    font-size: 12px;
+  }
+  .popup-inner {
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    bottom: 20%;
+  }
+  .popup-inner h1 {
+    font-size: 18px;
+  }
+  .four-title {
+    font-size: 18px;
+    margin-left: 30%;
+  }
+  .pazzle-form h1 {
+    font-size: 16px;
+    margin-left: 50%;
+  }
+
+  .pazzle-form input {
+    font-size: 16px;
+    height: 30px;
+    width: 80%;
+  }
+  #pazzle-submit {
+    width: 50%;
+  }
+  .pazzle-form p,
+  .question-pazzle {
+    font-size: 16px;
+    margin-left: 35%;
+    margin-right: -30%;
+  }
+  .answer-puzzel {
+    font-size: 16px;
+  }
 }
